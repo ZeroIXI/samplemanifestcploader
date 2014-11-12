@@ -15,3 +15,5 @@ To reproduce the cp inspection error:
  - exception should be thrown 
 
 Testet with jdk 7 and 8 already and both should behave the same way. 
+
+This problem can be solved by adding the System Property xbean.finder.use.get-resources=true" to the container.
